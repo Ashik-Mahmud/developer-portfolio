@@ -1,0 +1,50 @@
+/* stylesheet or css  */
+
+
+/* adding google fonts poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/* universal css or base */
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+/* frequently using class  */
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.container-fluid{
+    max-width: 100%;
+    padding: 0rem 1.4rem;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* root css  start here  */
+
+
+
+
+
